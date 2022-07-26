@@ -59,7 +59,7 @@
 </head>
 
 <body>
-
+<div class="mob-hidden">
 	<div id="WM-container">
 		<div id="WM-home" class="js-fullheight" data-section="home">
 
@@ -92,7 +92,7 @@
 						<a href="#" data-nav-section="about">About</a>
 					</div>
 					<div class="WM-logo">
-						<a href="index.html">wm</a>
+						<a data-nav-section="home" href="#">wm</a>
 					</div>
 					<div class="WM-menu-2">
 						<a href="#" data-nav-section="portfolio">Portfolio</a>
@@ -111,7 +111,7 @@
 					the creation of adaptive websites using advanced technologies. Such sites will look equally good on
 					both mobile devices and large screens.For this I use HTML5, CSS3 and javascript.</p>
 
-				<p class="text-center to-animate"><a href="#" class="btn btn-primary btn-outline">Get in touch</a></p>
+				<p class="text-center to-animate"><a href="#" data-nav-section="contacts" class="btn btn-primary btn-outline">Get in touch</a></p>
 			</div>
 		</div>
 
@@ -164,63 +164,64 @@
 				</div>
 				<div class="row">
 					<div class="WM-grid">
-						<div class="WM-v-half to-animate-2">
-							<div class="WM-v-col-2 WM-bg-img" style="background-image: url(images/res_img_1.jpg)"></div>
-							<div class="WM-v-col-2 WM-text WM-special-1 arrow-left">
-								<h2>Fresh Mushrooms</h2>
-								<span class="pricing">$7.50</span>
-								<p>Far far away, behind the word mountains, far from the countries Vokalia and
-									Consonantia, there live the blind texts.</p>
+						<div class="WM-v-half">
+							<div class="WM-featured-item WM-h-row-2 to-animate-2" data-img-big="images/works/1.png" data-github="https://github.com/CodWorker/fast-host-layout" data-website="https://codworker.github.io/fast-host-layout/">
+								<i class="glyphicon glyphicon-eye-open header-icon"></i>
+								<div class="WM-v-col-2 WM-bg-img" style="background-image: url(images/works/sm1.jpg)">
+								</div>
+								<div class="WM-v-col-2 WM-text WM-bg-purple arrow-left">
+									<h2>Fast Host</h2>
+									<span class="pricing">9 pages</span>
+									<p>In this website uses technologies such as HTML, CSS, JQUERY, BOOTSTRAP 3</p>
+								</div>
 							</div>
 						</div>
 						<div class="WM-v-half">
-							<div class="WM-h-row-2 to-animate-2">
-								<div class="WM-v-col-2 WM-bg-img" style="background-image: url(images/res_img_1.jpg)">
+							<div class="WM-featured-item WM-h-row-2 to-animate-2" data-img-big="images/works/2.png" data-github="https://github.com/CodWorker/smart-watch-layout" data-website="https://codworker.github.io/smart-watch-layout/">
+								<i class="glyphicon glyphicon-eye-open header-icon"></i>
+								<div class="WM-v-col-2 WM-text WM-bg-gold arrow-right">
+									<h2>Smart Watch</h2>
+									<span class="pricing">1 page</span>
+									<p>In this website uses technologies such as HTML, CSS, JQUERY, BOOTSTRAP 4</p>
 								</div>
-								<div class="WM-v-col-2 WM-text arrow-left">
-									<h2>Grilled Chiken Salad</h2>
-									<span class="pricing">$12.00</span>
-									<p>Far far away, behind the word mountains.</p>
-								</div>
-							</div>
-							<div class="WM-h-row-2 WM-reversed to-animate-2">
-								<div class="WM-v-col-2 WM-bg-img" style="background-image: url(images/res_img_1.jpg)">
-								</div>
-								<div class="WM-v-col-2 WM-text arrow-right">
-									<h2>Cheese and Garlic Toast</h2>
-									<span class="pricing">$4.50</span>
-									<p>Far far away, behind the word mountains.</p>
+								<div class="WM-v-col-2 WM-bg-img" style="background-image: url(images/works/sm2.jpg)">
 								</div>
 							</div>
 						</div>
 
 						<div class="WM-v-half">
-							<div class="WM-h-row-2 WM-reversed to-animate-2">
-								<div class="WM-v-col-2 WM-bg-img" style="background-image: url(images/res_img_1.jpg)">
+							<div class="WM-featured-item WM-h-row-2 to-animate-2" data-img-big="images/works/3.png" data-github="https://github.com/CodWorker/flowers-shop-layout" data-website="https://codworker.github.io/flowers-shop-layout/">
+								<i class="glyphicon glyphicon-eye-open header-icon"></i>
+								<div class="WM-v-col-2 WM-bg-img" style="background-image: url(images/works/sm3.jpg)">
 								</div>
-								<div class="WM-v-col-2 WM-text arrow-right">
-									<h2>Organic Egg</h2>
-									<span class="pricing">$4.99</span>
-									<p>Far far away, behind the word mountains.</p>
+								<div class="WM-v-col-2 WM-text WM-bg-gold arrow-left">
+									<h2>Flowers shop</h2>
+									<span class="pricing">5 pages</span>
+									<p>In this website uses technologies such as HTML, CSS, JQUERY, BOOTSTRAP 4</p>
 								</div>
 							</div>
-							<div class="WM-h-row-2 to-animate-2">
-								<div class="WM-v-col-2 WM-bg-img" style="background-image: url(images/res_img_1.jpg)">
+							<div class="WM-featured-item WM-h-row-2 to-animate-2" data-img-big="images/works/4.png" data-github="https://github.com/CodWorker/pool-construction-company-layout" data-website="https://codworker.github.io/pool-construction-company-layout/">
+								<i class="WM-h-row-2 glyphicon glyphicon-eye-open header-icon"></i>
+								<div class="WM-v-col-2 WM-text WM-bg-gold arrow-right">
+									<h2>Construction company</h2>
+									<span class="pricing">6 pages</span>
+									<p>In this website uses technologies such as HTML, CSS, JQUERY, BOOTSTRAP 4</p>
 								</div>
-								<div class="WM-v-col-2 WM-text arrow-left">
-									<h2>Salad with Crispy Chicken</h2>
-									<span class="pricing">$8.50</span>
-									<p>Far far away, behind the word mountains.</p>
+								<div class="WM-v-col-2 WM-bg-img" style="background-image: url(images/works/sm4.jpg)">
 								</div>
 							</div>
 						</div>
-						<div class="WM-v-half to-animate-2">
-							<div class="WM-v-col-2 WM-bg-img" style="background-image: url(images/res_img_1.jpg)"></div>
-							<div class="WM-v-col-2 WM-text WM-special-1 arrow-left">
-								<h2>Tomato Soup with Chicken</h2>
-								<span class="pricing">$12.99</span>
-								<p>Far far away, behind the word mountains, far from the countries Vokalia and
-									Consonantia, there live the blind texts.</p>
+
+						<div class="WM-v-half">
+							<div class="WM-featured-item WM-h-row-2 to-animate-2" data-img-big="images/works/5.jpg" data-github="https://github.com/CodWorker/interior-style-layout" data-website="https://codworker.github.io/interior-style-layout/">
+								<i class="glyphicon glyphicon-eye-open header-icon"></i>
+								<div class="WM-v-col-2 WM-bg-img" style="background-image: url(images/works/sm5.jpg)">
+								</div>
+								<div class="WM-v-col-2 WM-text WM-bg-purple arrow-left">
+									<h2>Interior Style</h2>
+									<span class="pricing">6 pages</span>
+									<p>In this website uses technologies such as HTML, CSS, JQUERY, BOOTSTRAP 3</p>
+								</div>
 							</div>
 						</div>
 
@@ -251,7 +252,7 @@
 								<i class="icon-home"></i>
 								Ukraine, <br>Kharkiv
 							</li>
-							<li><i class="icon-phone"></i> +3 (097) 108-10-69 <br><small>(Telegram, WhatsApp, Viber)</small></li>
+							<li><i class="icon-phone"></i> +3 8(097) 108-10-69</li>
 							<li><i class="icon-envelope"></i>workmy229@gmail.com</li>
 							<li><i class="icon-globe"></i> <a href="https://github.com/CodWorker" target="_blank">github</a></li>
 						</ul>
@@ -264,13 +265,18 @@
 
 	<div id="WM-footer">
 		<div class="container">
-			<div class="row row-padded">
+			<div class="row">
 				<div class="col-md-12 text-center">
-					<p class="to-animate">WebMaster portfolio <span class="copy-sign">&copy;</span> 2016</p>
-					<p class="text-center to-animate"><a href="#" class="js-gotop">Go To Top</a></p>
+					<p class="to-animate">WebMaster portfolio <span class="copy-sign">&copy;</span> 2022</p>
+					<p class="text-center to-animate">
+						<a href="#" class="js-gotop">
+							<span>Go To Top</span><br>
+							<i class="glyphicon glyphicon-chevron-up"></i>
+						</a>
+					</p>
 				</div>
 			</div>
-			<div class="row">
+			<!-- <div class="row">
 				<div class="col-md-12 text-center">
 					<ul class="WM-social">
 						<li class="to-animate-2"><a href="#"><i class="icon-facebook"></i></a></li>
@@ -278,12 +284,40 @@
 						<li class="to-animate-2"><a href="#"><i class="icon-instagram"></i></a></li>
 					</ul>
 				</div>
-			</div>
+			</div> -->
 		</div>
 	</div>
 
 
-
+	<!-- Modal -->
+	<div class="modal fade" id="WM-featured-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+		aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Info</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<div class="modal-descriptions"></div>
+					<div class="modal-links">
+						<p>Code and life example:</p>
+						<a class="modal-github" href="" target="_blank"></a><br>
+						<a class="modal-website" href="" target="_blank"></a>
+					</div>
+					<div class="modal-img">
+						<img src="">
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary btn-outline" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Modal -->
 
 
 
@@ -305,12 +339,50 @@
 	<script src="js/jquery.flexslider-min.js"></script>
 	<script>
 		$(function () {
-			$('#date').datetimepicker();
+			// $('#date').datetimepicker();
+
+			$('.WM-featured-item').on('click', (e) => {
+				e.preventDefault();
+
+				$('.js-WM-nav-toggle.active').trigger('click');
+
+				var target          = e.currentTarget;
+				var $item           = $(target);
+				$item               = $item.clone();
+				var $textH1         = $item.find('h2').text();
+				var $imgSrc         = $item.attr('data-img-big');
+				var $urlGitHub      = $item.attr('data-github');
+				var $urlWebSite     = $item.attr('data-website');
+				var $textDesc       = $item.find('p').text();
+				var $bgColorHeader  = $item.find('.WM-text.WM-bg-purple').length === 1 ? 'WM-bg-purple' : 'WM-bg-gold';
+
+				var $modal      = $('#WM-featured-modal');
+				var $modalHeader= $modal.find('.modal-header');
+				var $modalH5    = $modal.find('h5');
+				var $modalDesc  = $modal.find('.modal-descriptions');
+				var $modalLinks = $modal.find('.modal-links');
+				var $modalImg   = $modal.find('.modal-img');
+
+
+				$modalHeader.removeClass('WM-bg-purple').removeClass('WM-bg-gold').addClass($bgColorHeader);
+				$modalH5.html($textH1);
+				$modalDesc.html($textDesc);
+				$modalLinks.find('.modal-github').attr('href', $urlGitHub).text('Github');
+				$modalLinks.find('.modal-website').attr('href', $urlWebSite).text('Website');
+				$modalImg.find('img').attr('src', $imgSrc);
+
+
+
+				console.log($item.find('.WM-text.WM-bg-purple').length=== 1);
+				$modal.modal('show');
+			});
+		
 		});
 	</script>
 	<!-- Main JS -->
 	<script src="js/main.js"></script>
 
+</div>
 </body>
 
 </html>
