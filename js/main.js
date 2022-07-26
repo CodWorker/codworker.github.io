@@ -185,7 +185,7 @@
 		$(window).resize(function(){
 			topVal = ( $(window).width() < 769 ) ? 0 : 58;		
 		});
-		$('.WM-main-nav a:not([class="external"]), #WM-offcanvas a:not([class="external"])').click(function(event){
+		$('.WM-main-nav a:not([class="external"]), #WM-about a:not([class="external"]), #WM-offcanvas a:not([class="external"])').click(function(event){
 			var section = $(this).data('nav-section');
 
 				if ( $('div[data-section="' + section + '"]').length ) {
@@ -207,9 +207,8 @@
 	// Reflect scrolling in navigation
 	var navActive = function(section) {
 		
-		$('.WM-main-nav a[data-nav-section], #WM-offcanvas a[data-nav-section]').removeClass('active');
-		$('.WM-main-nav, #WM-offcanvas').find('a[data-nav-section="'+section+'"]').addClass('active');
-		
+		$('.WM-main-nav a[data-nav-section], #WM-about a[data-nav-section], #WM-offcanvas a[data-nav-section]').removeClass('active');
+		$('.WM-main-nav, #WM-about, #WM-offcanvas').find('a[data-nav-section="'+section+'"]').addClass('active');
 	};
 
 	var navigationSection = function() {
